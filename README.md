@@ -63,7 +63,7 @@ The standalone `WhereDidISaveThat.exe` is also available for people who prefer a
 
 Picture search downloads its visual model the first time you index pictures. This one-time download is about 154 MB; later picture indexing and matching run locally on this PC.
 
-To make a release yourself, push a version tag such as `v0.1.0`. The GitHub Actions workflow builds the Windows installer and standalone app, then attaches both to a GitHub Release. See [Publishing a release](#publishing-a-release).
+To make a release yourself, push a version tag such as `v1.0.0`. The GitHub Actions workflow builds the Windows installer and standalone app, then attaches both to a GitHub Release. See [Publishing a release](#publishing-a-release).
 
 ## Publishing a release
 
@@ -89,8 +89,8 @@ To make a release yourself, push a version tag such as `v0.1.0`. The GitHub Acti
 4. Create and push a release tag:
 
    ```powershell
-   git tag v0.1.0
-   git push origin v0.1.0
+   git tag v1.0.0
+   git push origin v1.0.0
    ```
 
 5. On GitHub, open **Actions** and wait for **Build Windows release** to finish. The workflow publishes `WhereDidISaveThat-Setup.exe` and `WhereDidISaveThat.exe` to the repository's Releases page.
